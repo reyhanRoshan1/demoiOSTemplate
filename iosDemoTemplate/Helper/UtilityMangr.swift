@@ -231,8 +231,18 @@ class Logger {
     }
 }
 /*
+ 270
+ let activityIndicatorView = NVActivityIndicatorView(
+     frame: CGRect(x: 0, y: 0, width: activityData.size.width, height: activityData.size.height),
+     type: activityData.type,
+     color: activityData.color,
+     padding: activityData.padding)
  let loadVwBg = UIView(frame: CGRect(x: (UIScreen.main.bounds.width / 2) - 42.5, y:  (UIScreen.main.bounds.height / 2) - 42.5, width: 85, height: 85))
  loadVwBg.backgroundColor = UIColor.black.withAlphaComponent(0.50)
  loadVwBg.layer.cornerRadius = 12
  loadVwBg.addSubview(activityIndicatorView)
+ activityIndicatorView.startAnimating()
+ activityIndicatorView.translatesAutoresizingMaskIntoConstraints = false
+ containerView.addSubview(loadVwBg)
+ 281
  */
