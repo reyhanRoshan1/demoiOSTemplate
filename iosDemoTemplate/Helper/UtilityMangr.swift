@@ -230,3 +230,9 @@ class Logger {
         #endif
     }
 }
+/*
+ let loadVwBg = UIView(frame: CGRect(x: (UIScreen.main.bounds.width / 2) - 42.5, y:  (UIScreen.main.bounds.height / 2) - 42.5, width: 85, height: 85))
+ loadVwBg.backgroundColor = UIColor.black.withAlphaComponent(0.50)
+ loadVwBg.layer.cornerRadius = 12
+ loadVwBg.addSubview(activityIndicatorView)
+ */
