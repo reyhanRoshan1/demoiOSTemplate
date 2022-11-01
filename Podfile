@@ -11,5 +11,6 @@ target 'iosDemoTemplate' do
   pod 'NVActivityIndicatorView' , '~> 4.7.0' #added LoadVwbg view behind the loader class NVActivityIndicatorPresenter.swift line 275
   pod 'Kingfisher'
   pod 'Firebase/Messaging'
+pod 'AAInfographics'
 
 end

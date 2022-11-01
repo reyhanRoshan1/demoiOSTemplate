@@ -1,4 +1,5 @@
 PODS:
+  - AAInfographics (7.3.0)
   - Alamofire (5.4.3)
   - Firebase/CoreOnly (8.7.0):
     - FirebaseCore (= 8.7.0)
@@ -62,6 +63,7 @@ PODS:
   - PromisesObjC (2.0.0)
 
 DEPENDENCIES:
+  - AAInfographics
   - Alamofire
   - Firebase/Messaging
   - IQKeyboardManagerSwift
@@ -70,6 +72,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - AAInfographics
     - Alamofire
     - Firebase
     - FirebaseCore
@@ -85,6 +88,7 @@ SPEC REPOS:
     - PromisesObjC
 
 SPEC CHECKSUMS:
+  AAInfographics: ee2a7959acdd0a00243b7f5a3f03a1fa2bdf0781
   Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
   Firebase: bc9325d5ee2041524bac78a5213d0e530c651309
   FirebaseCore: f4804c1d3f4bbbefc88904d15653038f2c99ddf7
@@ -99,6 +103,6 @@ SPEC CHECKSUMS:
   NVActivityIndicatorView: b19ddab2576f805cbe0fb2306cba3476e09a1dea
   PromisesObjC: 68159ce6952d93e17b2dfe273b8c40907db5ba58
 
-PODFILE CHECKSUM: e3421250d5299668d00794578deb9e00267a76a0
+PODFILE CHECKSUM: 3e2d9a5d08017bbdea372dc86433def7b1c59ce3
 
 COCOAPODS: 1.11.2
