@@ -231,6 +231,19 @@ class Logger {
     }
 }
 /*
+ 
+ let activityKey = NSString(string: "UIApplicationLaunchOptionsUserActivityKey")
+     if let userActivityDict = launchOptions?[.userActivityDictionary] as? [NSObject : AnyObject], let userActivity = userActivityDict[activityKey] as? NSUserActivity, let webPageUrl = userActivity.webpageURL {
+         
+         DynamicLinks.dynamicLinks().handleUniversalLink(webPageUrl) { (dynamiclink, error) in
+             
+             // do some stuff with dynamiclink
+             
+         }
+         
+     }
+ 
+ 
  270
  let activityIndicatorView = NVActivityIndicatorView(
      frame: CGRect(x: 0, y: 0, width: activityData.size.width, height: activityData.size.height),
